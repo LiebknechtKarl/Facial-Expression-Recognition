@@ -1,28 +1,17 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> c00ed24 (QCS)
 # Facial-Expression-Recognition
 
 ```
-conda create -n fer_38 python=3.8
+ssh droid@192.168.50.180        # 12345
+
+cd /media/4T/lilei/demo_53_facial_expression_recognition/QCS-250513
+
 conda activate fer_38
-```
 
 
-```
-# rafdb    数据
-https://paperswithcode.com/sota/facial-expression-recognition-on-raf-db
-
-# 数据集
-https://gitcode.com/open-source-toolkit/f4ac7/?utm_source=tools_gitcode&index=bottom&type=card&&isLogin=1
-```
+python3 main_QCS_raf_db_li_01.py
+CUDA_VISIBLE_DEVICES=1 python3 main_DCS_raf_db_li_01.py
 
 ```
-cd /home/fu/Desktop/ubuntu_data/nlp/demo_53_facial_expression_recognition
-```
-<<<<<<< HEAD
-=======
 =======
 #  QCS:Feature Refining from Quadruplet Cross Similarity for Facial Expression Recognition
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/qcs-feature-refining-from-quadruplet-cross/facial-expression-recognition-on-fer-1)](https://paperswithcode.com/sota/facial-expression-recognition-on-fer-1?p=qcs-feature-refining-from-quadruplet-cross)<br>
