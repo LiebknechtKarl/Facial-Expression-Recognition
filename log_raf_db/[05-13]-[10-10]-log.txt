@@ -1,0 +1,2 @@
+Current learning rate: 9e-06
+Current learning rate: 9e-06

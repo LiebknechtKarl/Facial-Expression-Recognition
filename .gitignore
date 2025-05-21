@@ -1,0 +1,7 @@
+datas/RAF-DB/basic/test/*
+datas/RAF-DB/basic/train/*
+datas/RAF-DB/basic/validation/*
+datas/RAF-DB/trainval_data_lists.zip
+checkpoint_raf_db/*
+models/pretrain/ir50.pth
+
