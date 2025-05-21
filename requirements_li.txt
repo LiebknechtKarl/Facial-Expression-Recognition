@@ -1,0 +1,12 @@
+dlib
+matplotlib
+numpy
+opencv_python
+pandas
+Pillow
+retina_face
+seaborn
+torch
+torchvision
+tqdm
+urllib3
