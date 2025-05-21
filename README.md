@@ -5,7 +5,45 @@
 conda create -n fer_38 python=3.8
 conda activate fer_38
 ```
+```
+conda create -n fer_38 python=3.8
+conda activate fer_38
 
+git clone https://github.com/ArnabKumarRoy02/ResEmoteNet.git
+cd ResEmoteNet/
+
+pip install -r requirements.txt
+
+# 数据与处理
+python3 data_preprocessing/rename.py
+
+python3 data_preprocessing/move.py
+
+python3 data_preprocessing/data_csv.py
+
+### 现在可以直接运行训练
+
+conda activate fer_38
+
+python3 train_files/ResEmoteNet_train_li.py
+
+
+
+# 对比网站
+
+# AffectNet
+https://paperswithcode.com/sota/facial-expression-recognition-on-affectnet
+
+# rafdb 2023
+https://paperswithcode.com/sota/facial-expression-recognition-on-fer2013
+
+# exp w
+https://paperswithcode.com/sota/facial-expression-recognition-fer-on-expw
+
+
+
+
+```
 
 ```
 # rafdb    数据
